@@ -2,10 +2,11 @@ services:
   postgres:
     image: postgres
     environment:
-      - POSTGRES_PASSWORD=postgrespw
+      - POSTGRES_PASSWORD=postgrespw         
     ports:
       - 5432:5432
     volumes:
-      - pgdata:/var/lib/postresql/data
+      - pgdata:/var/lib/postgresql/data
 volumes:
   pgdata:
+ 
