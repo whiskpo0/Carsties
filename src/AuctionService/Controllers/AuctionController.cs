@@ -51,7 +51,7 @@ public class AuctionController : ControllerBase
     {
         var auction  = _mapper.Map<Auction>(auctionDto); 
         //TODO Add Current User as seller
-        auction.Seller = "test"; 
+        auction.Seller = "Adam M"; 
 
         _context.Auctions.Add(auction); 
 
