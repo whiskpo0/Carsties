@@ -6,7 +6,7 @@ import React from 'react'
 import Countdown, { zeroPad } from 'react-countdown';
 
 type Props = {
-    auctionEnd: string;
+  auctionEnd: string;
 }
 
 const renderer = ({ days, hours, minutes, seconds, completed }:
